@@ -1,0 +1,29 @@
+.container {
+  border: var(--themeBorder);
+  display: inline-block;
+  display: flex;
+}
+
+.rateDetails {
+  text-align: left;
+  width: 92%;
+  padding: 5px;
+}
+
+.rate {
+  display: flex;
+  justify-content: space-between;
+  line-height: 0%;
+}
+
+.rateName {
+  font-weight: bold;
+}
+
+.deleteButton {
+  border-left: var(--themeBorder);
+  height: auto;
+  width: 8%;
+  padding-top: 14px;
+  font-size: 18px;
+}

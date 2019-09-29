@@ -1,0 +1,46 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 50px;
+}
+
+.rateBox {
+  width: 500px;
+  border: var(--themeBorder);
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+.rateBoxTitle {
+  padding: 15px;
+  border-bottom: var(--themeBorder);
+}
+
+.rateTitle {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rateBoxBody {
+  padding: 15px;
+  text-align: center;
+}
+
+.addCurrencyContainer {
+  padding: 15px;
+}
+
+.addCurrencyButton {
+  display: flex;
+  margin: auto;
+  border: var(--themeBorder);
+  line-height: 0%;
+}
+
+.addCurrencyButton p {
+  margin-left: 10px;
+}
+
+.addCurrencyButton input {
+  width: 100%;
+}
