@@ -8,16 +8,16 @@ const ExchangeRatesBox = props => {
         <div className={styles.container}>
             <div className={styles.rateDetails}>
                 <div className={styles.rate}>
-                    <p>IDR</p>
-                    <p>144 1,104.50</p>
+                    <p>{props.rate.name}</p>
+                    <p>{props.rate.value * props.rateValue}</p>
                 </div>
                 <div className={styles.rateName}>
-                    <i>IDR - Indonesian Rupiah</i>
+                    <i>{props.rate.name}</i>
                 </div>
-                <i>1 USD - IDR 14.410.45</i>
+                <i>1 {props.base} - {props.rate.name} {props.rate.value}</i>
             </div>
             <div className={styles.deleteButton}>
-                <p>(-)</p>
+                <p onClick={() => props.removeCurrency(props.rate.name)}>(-)</p>
             </div>
         </div>
     )

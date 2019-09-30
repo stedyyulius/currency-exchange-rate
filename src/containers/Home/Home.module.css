@@ -2,6 +2,7 @@
   width: 100vw;
   height: 100vh;
   padding-top: 50px;
+  padding-bottom: 150px;
 }
 
 .rateBox {
@@ -41,6 +42,6 @@
   margin-left: 10px;
 }
 
-.addCurrencyButton input {
+.addCurrencyButton select {
   width: 100%;
 }
